@@ -37,4 +37,10 @@ Un bout de code est également rendu disponible pour faciliter l’insertion des
 
 Malheureusement, les données de Lyon ne contenant pas de données attributaires ni de style image disponible, nous ne pourrons pas les utiliser dans les parties suivantes et utiliserons des données fournies par Césium.
 
+  
+<p align="center">
+  <img align="center" src="/GIF/tuto_assets_recadre.gif">
+</p>
+  
+  
 </div>
