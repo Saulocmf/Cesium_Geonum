@@ -22,7 +22,7 @@ Pour commencer, il est nécessaire d’avoir des données 3D de photogrammétrie
 Césium Ion permet également de styliser les données en fonction des attributs de la couche. Attention, cela n’est faisable que pour les données 3D ne possédant pas de photographies. Dans notre cas, nous utiliserons ici les données 3D de New York City fournies par Césium. Après les avoir importées comme décrit précédemment, nous pouvons passer à l’étape du style grâce au bouton «edit style» proposé à côté du nom de la couche. Dans cette partie, il est proposé de sélectionner n’importe quel attribut, comme sur un SIG, afin de le styliser. 
 
 <p align="center">
-<img align="center" src="/Figures/CreateStyle.png">
+<img src="/Figures/CreateStyle.png"> <img height=200 src="/GIF/gif_overview.gif">
 </p>
 
 Ainsi, il est possible de catégoriser les bâtiments en fonction de leur type de propriétaire, en entrant les différents types dans les paramètres. On regrettera cependant l’absence d’une table de données, nous indiquant directement lesdits types. Il est cependant possible de cliquer sur chaque bâtiment et d’afficher ses attributs et valeurs, comme visible ci-dessous avec l’Empire State Building.
@@ -38,7 +38,7 @@ Ainsi, il est possible de catégoriser les bâtiments en fonction de leur type d
 Il est également possible de créer un style gradué en fonction de valeurs numériques ou temporelles. Pour cela, après avoir sélectionné la valeur, il faut entrer une valeur minimale et maximale (éventuellement des intermédiaires) et sélectionner une palette pour visualiser les données. Ici, nous avons visualisé les bâtiments en fonction de leur année de construction.
 
 <p align="center">
-<img align="center" src="/Figures/GraduatedStyle.png">
+<img align="center" height=350 src="/GIF/style_recadre.gif">
 </p>
 
 <img align="right" src="/Figures/Styling.png">
@@ -60,6 +60,8 @@ De plus, plusieurs outils sont disponibles pour analyser nos données visualisé
 <p align="center">
 <img src="/Figures/Story2.png"> <img src="/Figures/Story3.png">
   </p>
+  
+<img height=300 src="/GIF/tools1_recadre.gig"> 
 
 Il est également possible de mesurer l’aire d’un bâtiment, et de visualiser les coordonnées, la hauteur et la pente d’un point à la volée.
   
@@ -67,8 +69,9 @@ Il est également possible de mesurer l’aire d’un bâtiment, et de visualise
 <p align="center">
 <img src="/Figures/Story4.png"> <img src="/Figures/Story5.png">
   </p>
-  
-  
+<p align="center">
+<img height=300 src="/GIF/tools2_recadre.gif">  
+  </p>
   
   
   
