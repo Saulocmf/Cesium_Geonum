@@ -6,6 +6,7 @@ L’un des principaux avantages de Césium Ion est son intégration possible dan
 ### Tutoriel : Utiliser la plateforme Césium Ion pour styliser les données 3D et créer des stories
 Cette section présente un tutoriel de création et de stylisation d’une story. Pour ce faire, il n’y a pas besoin de connaissances en code, à l’inverse des visualisations de cesium.js, développées plus tard dans ce document. 
 
+  
 * Étape 1 : Ajouter les données 3D dans une story
 
 Pour commencer, il est nécessaire d’avoir des données 3D de photogrammétrie présent dans l’espace « My Assets » de la plateforme. Césium Ion en fournit, mais il est possible d’utiliser les nôtres en les chargeant. Une fois les données réunies, il faut créer une nouvelle story. Une fois la nouvelle story créée, il est important de supprimer les données présentes par défaut sur la carte, les bâtiments OSM, et d’ajouter nos données via l’espace “Assets” en bas à gauche.
@@ -14,9 +15,11 @@ Pour commencer, il est nécessaire d’avoir des données 3D de photogrammétrie
 <img align="center" src="/Figures/Batiments_OSM.png">
 </p>
   
+<br><br/>
+  
 * Étape 2 : Styliser des données 3D dans Césium Ion
 
-Césium Ion permet également de styliser les données en fonction des attributs de la couche. Attention, cela n’est faisable que pour les données 3D ne possédant pas de photographies. Dans notre cas, nous utiliserons ici les données 3D de New York City fournies par Césium. Après les avoir importées comme décrit précédemment, nous pouvons passer à l’étape du style grâce au bouton « edit style » proposé à côté du nom de la couche. Dans cette partie, il est proposé de sélectionner n’importe quel attribut, comme sur un SIG, afin de le styliser. 
+Césium Ion permet également de styliser les données en fonction des attributs de la couche. Attention, cela n’est faisable que pour les données 3D ne possédant pas de photographies. Dans notre cas, nous utiliserons ici les données 3D de New York City fournies par Césium. Après les avoir importées comme décrit précédemment, nous pouvons passer à l’étape du style grâce au bouton «edit style» proposé à côté du nom de la couche. Dans cette partie, il est proposé de sélectionner n’importe quel attribut, comme sur un SIG, afin de le styliser. 
 
 <p align="center">
 <img align="center" src="/Figures/CreateStyle.png">
@@ -39,12 +42,31 @@ Il est également possible de créer un style gradué en fonction de valeurs num
 </p>
 
 <img align="right" src="/Figures/Styling.png">
+<br><br/>
 L’avantage de Césium Ion réside également dans le fait que la création d’un style n’efface pas les autres. En effet, un menu reprend l’ensemble des styles, qui se visualisent en sélectionnant la ligne en question. Il est donc aisé de réaliser des essais de styles différents et de les comparer. 
   
+<br><br/>
   
+* Étape 3 : Créer et interagir avec une story
   
+Une fois les données ajoutées et stylisées, il est possible de créer une fenêtre de présentation («infobox») s’affichant par dessus la carte, et de réaliser une capture de la vue correspondant à notre positionnement.
+
+<p align="center">
+<img align="center" src="/Figures/Story1.png">
+</p>
   
+De plus, plusieurs outils sont disponibles pour analyser nos données visualisées. Dans le menu en bas de la fenêtre, il est possible de mesurer les bâtiments dans les dimensions X, Y et Z. 
+
+<p align="center">
+<img src="/Figures/Story2.png"> <img src="/Figures/Story3.png">
+  </p>
+
+Il est également possible de mesurer l’aire d’un bâtiment, et de visualiser les coordonnées, la hauteur et la pente d’un point à la volée.
   
+
+<p align="center">
+<img src="/Figures/Story4.png"> <img src="/Figures/Story5.png">
+  </p>
   
   
   
