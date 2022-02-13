@@ -1,4 +1,4 @@
-### 3D Tiling
+### *3D Tiling*
 Les 3D Tiles ont été créés suite à une initiative de Césium et correspondent à un modèle de données facilitant le travail, l’analyse, le partage et la diffusion des données 3D. Grâce au format 3D Tiles, plusieurs formats de données 3D (qui sont parfois très lourds) peuvent être combinés dans un seul jeu de données avec un format gITF.
 
 Pour résumer leur fonctionnement, un ensemble de données provenant de différentes sources peut être regroupé et combiné dans un seul jeu de données 3D Tiles au format gITF. Ce jeu de données 3D Tiles permet d’optimiser le partage et la diffusion des données mais est aussi intéractif, libre, personnalisable, adaptable, flexible, durable …
