@@ -1,5 +1,5 @@
 ### *3D Tiling*
-
+<div align="justify">
 Les 3D Tiles ont été créés suite à une initiative de Césium et correspondent à un modèle de données facilitant le travail, l’analyse, le partage et la diffusion des données 3D. 
 
 <img align="right" src="/Figures/3D_Tiles.png">
@@ -29,8 +29,8 @@ Cliquer sur “Add data” pour ajouter nos propres données. Ici, nous allons a
   <img align="center" src="/Figures/AddData.png">
 </p>
 
-Après quelques secondes d’attente, le modèle est ajouté à notre espace et est ici visualisable. Un bout de code est également rendu disponible pour faciliter l’insertion des données avec Cesium.js. Le code fait appel au type de données et à son identifiant, créé à l’insertion des données dans notre espace. <img align="right" width="100" height="100" src="/Figures/Model1.png">
-
+Après quelques secondes d’attente, le modèle est ajouté à notre espace et est ici visualisable. <img align="right" width="300" src="/Figures/Model1.png"> 
+Un bout de code est également rendu disponible pour faciliter l’insertion des données avec Cesium.js. Le code fait appel au type de données et à son identifiant, créé à l’insertion des données dans notre espace. 
 
 <p align="center">
   <img align="center" src="/Figures/Code.png">
@@ -38,3 +38,4 @@ Après quelques secondes d’attente, le modèle est ajouté à notre espace et 
 
 Malheureusement, les données de Lyon ne contenant pas de données attributaires ni de style image disponible, nous ne pourrons pas les utiliser dans les parties suivantes et utiliserons des données fournies par Césium.
 
+</div>
