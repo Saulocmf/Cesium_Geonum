@@ -1,4 +1,4 @@
-## 3D Tiling
+### 3D Tiling
 Les 3D Tiles ont été créés suite à une initiative de Césium et correspondent à un modèle de données facilitant le travail, l’analyse, le partage et la diffusion des données 3D. Grâce au format 3D Tiles, plusieurs formats de données 3D (qui sont parfois très lourds) peuvent être combinés dans un seul jeu de données avec un format gITF.
 
 Pour résumer leur fonctionnement, un ensemble de données provenant de différentes sources peut être regroupé et combiné dans un seul jeu de données 3D Tiles au format gITF. Ce jeu de données 3D Tiles permet d’optimiser le partage et la diffusion des données mais est aussi intéractif, libre, personnalisable, adaptable, flexible, durable …
@@ -6,7 +6,7 @@ Pour résumer leur fonctionnement, un ensemble de données provenant de différe
 Au sein de Césium, les 3D tiles sont utilisables aussi bien au sein de Césium Ion que de Césium.js. Des 3D tiles sont par ailleurs déjà mises à disposition par Césium.
 Les formats de données acceptés pour former des 3D Tiles sont multiples et dépendent des domaines d’applications. On peut par exemple citer les formats CityGML et KML pour la construction de modèle 3D de bâtiments ; les formats Filmbox, gITF, Wavefront OBJ … pour les modèles BIM et CAD ; les formats GeoTIFF, ASCII, JPEG, PNG … pour l’imagerie et la photogrammétrie ; ou encore LAS et LAZ pour les données Lidar.
 
-# Tutoriel : Utiliser la plateforme Césium Ion pour ajouter des données 3D
+### Tutoriel : Utiliser la plateforme Césium Ion pour ajouter des données 3D
 
 L’insertion des données 3D dans l’espace de stockage de Césium se déroule comme suit. En se rendant sur la plateforme, nous arrivons sur l’interface suivante (présentée sur la figure ci-dessous) : au milieu se trouve une liste comprenant l’ensemble des données que nous avons ajouté précédemment à notre espace, avec leur caractéristiques. Un panneau sur la droite permet de visualiser chacune des données sur un globe terrestre. A noter qu’il est possible d’accéder à des données fournies par Césium à partir de la barre de recherche et que les stories sont accessibles dans le premier onglet en haut à gauche.
 Cliquer sur “Add data” pour ajouter nos propres données. Ici, nous allons ajouter les données 3D des bâtiments du 2e arrondissement de Lyon, au format GML. Comme expliqué précédemment, Césium prend en charge un certain nombre de formats 3D, et ceux-ci sont séparés dans en deux catégories : “3D Tiles” (se visualisant avec un carré autour) et “KML, CZML, or GEOJson”. Dans notre cas, nous allons insérer les données en tant que 3D Tiles. Le fichier principal JSON se sélectionne naturellement si aucun autre fichier du même type, pouvant prêter à confusion, est présent.
