@@ -60,9 +60,9 @@ De plus, plusieurs outils sont disponibles pour analyser nos données visualisé
 <p align="center">
 <img src="/Figures/Story2.png"> <img src="/Figures/Story3.png">
   </p>
-  
-<img height=300 src="/GIF/tools1_recadre.gig"> 
-
+<p align="center">
+<img height=300 src="/GIF/tools1_recadre.gif"> 
+  </p>
 Il est également possible de mesurer l’aire d’un bâtiment, et de visualiser les coordonnées, la hauteur et la pente d’un point à la volée.
   
 
