@@ -28,7 +28,7 @@ Cliquer sur “Add data” pour ajouter nos propres données. Ici, nous allons a
   <img align="center" src="/Figures/AddData.png">
 </p>
 
-Après quelques secondes d’attente, le modèle est ajouté à notre espace et est ici visualisable. <img align="right" width="300" src="/Figures/Model1.png"> 
+Après quelques secondes d’attente, le modèle est ajouté à notre espace et est ici visualisable. <img align="right" width="300" src="/GIF/gif_overview.gif"> 
 Un bout de code est également rendu disponible pour faciliter l’insertion des données avec Cesium.js. Le code fait appel au type de données et à son identifiant, créé à l’insertion des données dans notre espace. 
 
 <p align="center">
