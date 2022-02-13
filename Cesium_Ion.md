@@ -9,7 +9,47 @@ Cette section présente un tutoriel de création et de stylisation d’une story
 * Étape 1 : Ajouter les données 3D dans une story
 
 Pour commencer, il est nécessaire d’avoir des données 3D de photogrammétrie présent dans l’espace « My Assets » de la plateforme. Césium Ion en fournit, mais il est possible d’utiliser les nôtres en les chargeant. Une fois les données réunies, il faut créer une nouvelle story. Une fois la nouvelle story créée, il est important de supprimer les données présentes par défaut sur la carte, les bâtiments OSM, et d’ajouter nos données via l’espace “Assets” en bas à gauche.
+  
+<p align="center">
+<img align="center" src="/Figures/Batiments_OSM.png">
+</p>
+  
+* Étape 2 : Styliser des données 3D dans Césium Ion
 
+Césium Ion permet également de styliser les données en fonction des attributs de la couche. Attention, cela n’est faisable que pour les données 3D ne possédant pas de photographies. Dans notre cas, nous utiliserons ici les données 3D de New York City fournies par Césium. Après les avoir importées comme décrit précédemment, nous pouvons passer à l’étape du style grâce au bouton « edit style » proposé à côté du nom de la couche. Dans cette partie, il est proposé de sélectionner n’importe quel attribut, comme sur un SIG, afin de le styliser. 
+
+<p align="center">
+<img align="center" src="/Figures/CreateStyle.png">
+</p>
+
+Ainsi, il est possible de catégoriser les bâtiments en fonction de leur type de propriétaire, en entrant les différents types dans les paramètres. On regrettera cependant l’absence d’une table de données, nous indiquant directement lesdits types. Il est cependant possible de cliquer sur chaque bâtiment et d’afficher ses attributs et valeurs, comme visible ci-dessous avec l’Empire State Building.
+
+<p align="center">
+<img align="center" src="/Figures/CategorizedStyle1.png">
+</p>
+  
+<p align="center">
+<img align="center" src="/Figures/CategorizedStyle2.png">
+</p>
+  
+Il est également possible de créer un style gradué en fonction de valeurs numériques ou temporelles. Pour cela, après avoir sélectionné la valeur, il faut entrer une valeur minimale et maximale (éventuellement des intermédiaires) et sélectionner une palette pour visualiser les données. Ici, nous avons visualisé les bâtiments en fonction de leur année de construction.
+
+<p align="center">
+<img align="center" src="/Figures/GraduatedStyle.png">
+</p>
+
+<img align="right" src="/Figures/Styling.png">
+L’avantage de Césium Ion réside également dans le fait que la création d’un style n’efface pas les autres. En effet, un menu reprend l’ensemble des styles, qui se visualisent en sélectionnant la ligne en question. Il est donc aisé de réaliser des essais de styles différents et de les comparer. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
