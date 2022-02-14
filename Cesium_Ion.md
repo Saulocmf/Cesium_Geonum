@@ -38,7 +38,7 @@ Ainsi, il est possible de catégoriser les bâtiments en fonction de leur type d
 Il est également possible de créer un style gradué en fonction de valeurs numériques ou temporelles. Pour cela, après avoir sélectionné la valeur, il faut entrer une valeur minimale et maximale (éventuellement des intermédiaires) et sélectionner une palette pour visualiser les données. Ici, nous avons visualisé les bâtiments en fonction de leur année de construction.
 
 <p align="center">
-<img align="center" height=350 src="/GIF/style_recadre.gif">
+<img height=350 src="/GIF/style_recadre.gif">
 </p>
 
 <img align="right" src="/Figures/Styling.png">
