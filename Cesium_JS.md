@@ -71,15 +71,12 @@ L’action précédente attribuera un code ID pour la couche geojson ajoutée su
 async function addBuildingGeoJSON() {
 // Charger le fichier GEOJSON depuis Césium Ion
   const geoJSONURL = await Cesium.IonResource.fromAssetId(numero_emprise);
-// Create the geometry from the GeoJSON, and clamp it to the ground.
+// Définir le nouveau fichier en temps que géométrie, et placer cette géométrie sur le sol
   const geoJSON = await Cesium.GeoJsonDataSource.load(geoJSONURL, { clampToGround: true });
-// Add it to the scene.
-  const dataSource = await viewer.dataSources.add(geoJSON);
-// By default, polygons in CesiumJS will be draped over all 3D content in the scene.
-// Modify the polygons so that this draping only applies to the terrain, not 3D buildings.
-  for (const entity of dataSource.entities.values) {entity.polygon.classificationType = Cesium.ClassificationType.TERRAIN};
-// Move the camera so that the polygon is in view.
-  viewer.flyTo(dataSource);
+// Ajouter la couche de base des batiments 3D à la visualisation
+  const bati_base = await viewer.dataSources.add(geoJSON);
+// Zoomer sur le nouveau polygone
+  viewer.flyTo(bati_base);
 }
 addBuildingGeoJSON();
 ```
@@ -88,7 +85,7 @@ Cela permettra de repérer l’emprise du bâtiment au sol :
 <img align="center" height= 250 src="/Figures/Emprisesol.png">
 </p>
   
-* Étape 5 : Gestion des bâtiments existants
+* Étape 5 : Style et gestion des bâtiments alentours
 À partir de l’emprise au sol, il est possible voir que sur le terrain, quelques bâtiments sont présents dans la zone choisie où l’on veut placer le nouveau bâtiment :
   
 <p align="center">
@@ -113,11 +110,11 @@ buildingsTileset.style = new Cesium.Cesium3DTileStyle({
       [true, true]
     ]
   },
-// Set the default color style for this particular 3D Tileset.
-// For any building that has a `cesium#color` property, use that color, otherwise make it white.
+// Appliquer une couleur basée sur les attributs de la couche
   color: "Boolean(${feature['cesium#color']}) ? color(${feature['cesium#color']}) : color('#ffffff')"
 });
 ```
+Comme visible ci-dessus, il est alors possible d'assigner une couleur à chaque bâtiment en fonction de l'un de ses attributs : ici, l'attribut "cesium#color" fait d'abord appel à une fonction Booléenne pour définir si l'attribut contient une valeur. Si oui, la couleur sera assignée au bâtiment (via "color($(feature['cesium#color']))", color faisant référence à la fonction qui gère les couleurs dans Césium.js, feature faisant appel à l'attribut). Dans le cas inverse, les bâtiments seront colorés en blanc grâce au code couleur "#ffffff".
 
 * Étape 6 : Ajouter le modèle 3D du bâtiment dans Césium Ion
 
