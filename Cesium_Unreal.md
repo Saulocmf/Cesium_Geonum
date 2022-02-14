@@ -16,4 +16,7 @@ Le schéma présenté ci-dessous, résume l’organisation de ces différents ou
 
 L’outil Césium for Unreal propose un grand nombre de fonctionnalités et de tutoriels pour s'intégrer dans les jeux des objets et éléments 3D. Étant donné qu’il ne s’agit pas vraiment de notre domaine d’expertise, nous n’avons pas développé de tutoriel pour cet outil. Pour donner un aperçu des capacités de cet outil, ce dernier permet de construire des applications de réalité virtuelle, de travailler sur l’éclairage et les ombres ou encore d’intégrer des objets 3D interactifs dans l’environnement.
   
+  
+  
+[![Watch the video](/Figures/Cesium_unreal.jpg)](https://player.vimeo.com/video/529842190?app_id=122963)
 </div>
