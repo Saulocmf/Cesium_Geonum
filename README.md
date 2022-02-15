@@ -11,5 +11,5 @@ Le github est composé de cinq markdowns structurés de la façon suivante :
 * Césium for Unreal : développement de jeux vidéo
 
 Les deux dossiers GIF et Figures regroupent les images et les vidéos inclues dans les fichiers markdownw.
-
+Pour finir, le dossier Bati3D_Cesium comprend un ensemble de fichiers nécessaires pour réaliser le tutoriel proposé dans la partie Cesium JS.
 
