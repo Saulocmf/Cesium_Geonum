@@ -10,7 +10,7 @@ Grâce au format 3D Tiles, plusieurs formats de données 3D (qui sont parfois tr
 
 Pour résumer leur fonctionnement, un ensemble de données provenant de différentes sources peut être regroupé et combiné dans un seul jeu de données 3D Tiles au format gITF. Ce jeu de données 3D Tiles permet d’optimiser le partage et la diffusion des données mais est aussi intéractif, libre, personnalisable, adaptable, flexible, durable …
 
-Au sein de Césium, les 3D tiles sont utilisables aussi bien au sein de Césium Ion que de Césium.js. Des 3D tiles sont par ailleurs déjà mises à disposition par Césium.
+Au sein de Césium, les 3D tiles sont utilisables aussi bien dans Césium Ion que dans Césium.js. Des 3D tiles sont par ailleurs déjà mises à disposition par Césium.
 Les formats de données acceptés pour former des 3D Tiles sont multiples et dépendent des domaines d’applications. On peut par exemple citer les formats CityGML et KML pour la construction de modèle 3D de bâtiments ; les formats Filmbox, gITF, Wavefront OBJ … pour les modèles BIM et CAD ; les formats GeoTIFF, ASCII, JPEG, PNG … pour l’imagerie et la photogrammétrie ; ou encore LAS et LAZ pour les données Lidar.
 
 ### Tutoriel : Utiliser la plateforme Césium Ion pour ajouter des données 3D
