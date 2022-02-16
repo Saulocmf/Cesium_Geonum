@@ -13,3 +13,6 @@ Le github est composé de cinq markdowns structurés de la façon suivante :
 Les deux dossiers GIF et Figures regroupent les images et les vidéos inclues dans les fichiers markdownw.
 Pour finir, le dossier docs comprend un ensemble de fichiers nécessaires pour réaliser le tutoriel proposé dans la partie Cesium JS.
 
+<p align="center">
+<img height= 50 src="/Figures/Lyon2.png"> <img height=50 src="/Figures/ENSpng.png"> <img height=50 src="/Figures/UJM.png"> <img height=50 src="/Figures/logo_geonum.png"> 
+</p>
